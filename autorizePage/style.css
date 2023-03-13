@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: Montserrat, sans-serif;
+}
+
+.reg {
+	width: 700px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 120px auto;
+}
+
+.box {
+	width: 350px;
+	height: 500px;
+	border: 1px solid #E7E7E7;
+	border-radius: 10px;
+}
+
+/* links */
+
+.box ul {
+	background: none;
+}
+
+.box li {
+	background: #fafafa;
+	list-style-type: none;
+	margin: 20px;
+}
+
+.box a {
+	color: #000;
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+#error svg {
+	color: red;
+}
+
+#error a {
+	color: red;
+}
+
+/* box left */
+
+.box-1 {
+	background: #fafafa;
+}
+
+/* logo */
+
+img {
+	width: 50px;
+	height: 50px;
+	margin: 25px;
+}
+
+h1 {
+	font-size: 1.17rem;
+	margin: 30px 0px 50px;
+}
+
+h2 {
+	font-size: 1.17rem;
+	margin: 20px 0;
+}
+
+p {
+	color: gray;
+	font-size: 16px;
+}
+
+/* ----------------------------------------------- */
+/* input */
+/* ----------------------------------------------- */
+
+input {
+	width: 306px;
+	height: 36px;
+	border: 1px solid #E7E7E7;
+	border-radius: 10px;
+	background: #E7E7E7;
+}
+
+input[type="text"] {
+	padding-left: 10px;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+/* ----------------------------------------------- */
+/* /input */
+/* ----------------------------------------------- */
+
+hr {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#gray {
+	font-size: 0.8rem;
+}
+
+.wrapper {
+	background: none;
+	margin: 10px;
+}
+
+
+
+@supports(appearance: none) {
+	#circle {
+		appearance: none;
+		width: 1.2rem;
+		height: 1.2rem;
+		border: 2px solid #567DFF;
+		background: none;
+		border-radius: 20px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	#circle:checked {
+		position: relative;
+		background: none;
+	}
+
+	#circle:checked::after {
+		width: 1.2rem;
+		height: 1.2rem;
+		position: absolute;
+		top: -0.1rem;
+		left: -0.1rem;
+		content: "✔";
+		color: white;
+		background: #567DFF;
+		border-radius: 20px;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+#checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+/* /checkbox */
+
+#input {
+	width: 200px;
+	height: 20px;
+	border: none;
+	border-bottom: 1px solid gray;
+	margin: 5px 0 50px;
+}
+
+.button {
+	width: 270px;
+	height: 30px;
+	background: #567DFF;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #567DFF;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.button a {
+	color: white;;
+	background: none;
+}
